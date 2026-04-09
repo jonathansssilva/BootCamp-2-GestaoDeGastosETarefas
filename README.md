@@ -2,7 +2,7 @@
 Registre suas despesas com descrição, valor, categoria e data. Use filtros inteligentes e estatísticas para visualizar gastos totais ou detalhar por categoria, entendendo exatamente para onde vai seu dinheiro.
 
 
-#  Gestor de Finanças e Tarefas 
+#  Gestor de Gastos e Tarefas 
 
 Um aplicativo web simples, leve e direto ao ponto para ajudar você a organizar sua rotina financeira e seus afazeres diários em um só lugar. Tudo roda diretamente no seu navegador, sem necessidade de internet constante ou bancos de dados complexos!
 
