@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Finanças e Tarefas</title>
+    
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="tabs">
+            <button class="tab-button active" data-tab="gastos">💸 Gastos</button>
+            <button class="tab-button" data-tab="tarefas">✅ Tarefas</button>
+        </div>
+
+        <div id="gastos" class="tab-content active">
+            <form id="gastoForm">
+                <div class="form-group">
+                    <input type="text" id="gastoDescricao" placeholder="Descrição do gasto..." required>
+                    <input type="number" id="gastoValor" placeholder="R$ 0,00" step="0.01" min="0.01" required>
+                </div>
+                <div class="form-group">
+                    <select id="gastoCategoria" required>
+                        <option value="">Selecione a categoria</option>
+                        <option value="Alimentação">🍔 Alimentação</option>
+                        <option value="Transporte">🚌 Transporte</option>
+                        <option value="Moradia">🏠 Moradia</option>
+                        <option value="Lazer">🎮 Lazer</option>
+                        <option value="Outros">📦 Outros</option>
+                    </select>
+                    <input type="date" id="gastoData" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Adicionar Gasto</button>
+            </form>
+
+            <h3 style="margin: 20px 0 10px;">Meus Gastos</h3>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="Alimentação">Alimentação</button>
+                <button class="filter-btn" data-filter="Transporte">Transporte</button>
+                <button class="filter-btn" data-filter="Moradia">Moradia</button>
+                <button class="filter-btn" data-filter="Lazer">Lazer</button>
+                <button class="filter-btn" data-filter="Outros">Outros</button>
+            </div>
+
+            <div id="gastosList" class="list-container"></div>
+
+            <div class="stats">
+                <span>Total de Registros: <span id="countGastos">0</span></span>
+                <footer>
+                    <p> &copy; 2026 - Versão 1.0.0</p>
+                </footer>
+                <span>Total Gasto: <span id="totalGastos">R$ 0,00</span></span>
+            </div>
+        </div>
+
+        <div id="tarefas" class="tab-content">
+            <form id="tarefaForm">
+                <div class="form-group" style="margin-bottom: 0;">
+                    <input type="text" id="tarefaDescricao" placeholder="O que você precisa fazer?" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+            </form>
+
+            <h3 style="margin: 20px 0 10px;">Minhas Tarefas</h3>
+            
+            <div id="tarefasList" class="list-container"></div>
+
+            <div class="stats">
+                <span>Pendentes: <span id="tarefasPendentes">0</span></span>
+                <span>Concluídas: <span id="tarefasConcluidas">0</span></span>
+            </div>
+        </div>
+    </div>
