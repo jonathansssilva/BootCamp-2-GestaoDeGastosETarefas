@@ -6,6 +6,19 @@ Registre suas despesas com descrição, valor, categoria e data. Use filtros int
 
 Um aplicativo web simples, leve e direto ao ponto para ajudar você a organizar sua rotina financeira e seus afazeres diários em um só lugar. Tudo roda diretamente no seu navegador, sem necessidade de internet constante ou bancos de dados complexos!
 
+##  O Problema
+
+Muitas pessoas têm dificuldade em acompanhar seus gastos diários e manter o controle de suas pendências. O uso de planilhas complexas ou a necessidade de ter vários aplicativos diferentes (um para finanças e outro para tarefas) acaba gerando desorganização e esquecimentos.
+
+## Proposta da Solução
+
+Uma aplicação web intuitiva que centraliza o controle financeiro e o gerenciamento de tarefas em uma única interface, rodando diretamente no navegador e salvando os dados localmente.
+
+##  Público-alvo
+
+Estudantes, freelancers e qualquer pessoa que busque uma ferramenta simples, gratuita e sem necessidade de criação de contas para a organização pessoal diária.
+
+
 ## Funcionalidades
 
 * **Controle de Gastos:** Registre suas despesas informando descrição, valor, categoria e data.
@@ -25,3 +38,16 @@ Um aplicativo web simples, leve e direto ao ponto para ajudar você a organizar 
 1. Faça o download ou clone este repositório.
 2. Navegue até a pasta do projeto.
 3. Dê um duplo clique no arquivo `index.html` para abri-lo no seu navegador favorito (Google Chrome, Firefox, Edge, etc.).
+
+## Autor
+Jonathan Francisco
+
+##  Link do Repositório
+
+https://github.com/jonathansssilva/BootCamp-2-GestaoDeGastosETarefas.git
+
+
+
+
+
+
