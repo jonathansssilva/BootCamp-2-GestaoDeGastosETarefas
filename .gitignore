@@ -1,0 +1,10 @@
+# Arquivos de sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Configurações locais de editores de código (VS Code, IntelliJ, etc)
+.vscode/
+.idea/
+
+# Arquivos de log padrão
+*.log
